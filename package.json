@@ -5,11 +5,18 @@
   "repository": "https://github.com/arthurabreu00/discord-work-point-bot.git",
   "author": "Arthur Tavares <arthurabreu00@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "knex": "^0.21.6",
     "moment": "^2.29.1",
     "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

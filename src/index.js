@@ -23,7 +23,7 @@ client.on("message", (message) => {
 			command(message);
 		}
 	} catch (e) {
-		message.channel.sender(
+		message.channel.send(
 			"Ocorreu algum erro, contate o criador do bot - arthurabreu00@gmail.com"
 		);
 		console.error(e);
