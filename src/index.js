@@ -20,7 +20,7 @@ client.on("message", (message) => {
 	try {
 		let command = commands[userCommand];
 		if (command) {
-			command(message);
+			command(message, args);
 		}
 	} catch (e) {
 		message.channel.send(
